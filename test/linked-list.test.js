@@ -210,7 +210,7 @@ describe("LinkedList", () => {
         })
     });
 
-    describe.skip("Optional: findNthFromEend", () => {
+    describe("Optional: findNthFromEend", () => {
         it("will return null if the index is outside the bounds of the list", () => {
             // Assert
             expect(list.findNthFromEnd(3)).toBeNull();
@@ -230,7 +230,7 @@ describe("LinkedList", () => {
         });
     });
 
-    describe.skip("Optional: insertAscending", () => {
+    describe("Optional: insertAscending", () => {
         it("inserts an element in the middle of the list", () => {
             // Arrange
             list.addFirst(5);
@@ -305,7 +305,7 @@ describe("LinkedList", () => {
         });
     });
 
-    describe.skip("Optional: hasCycle", () => {
+    describe("Optional: hasCycle", () => {
         it("will return true when a cycle is present", () => {
             list.addFirst(1);
             list.addFirst(2);
