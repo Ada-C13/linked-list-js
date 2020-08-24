@@ -184,7 +184,7 @@ describe("LinkedList", () => {
         });
     })
 
-    describe.skip("Optional: addLast and getLast", () => {
+    describe("Optional: addLast and getLast", () => {
         it("will put new items to the rear of the list", () => {
             list.addLast(2);
             expect(list.length()).toEqual(1);
@@ -283,7 +283,7 @@ describe("LinkedList", () => {
         });
     });
 
-    describe.skip("Optional: getMiddleValue", () => {
+    describe("Optional: getMiddleValue", () => {
         it("finds the middle value of a list with odd length", () => {
             list.addFirst(3);
             list.addFirst(2);
